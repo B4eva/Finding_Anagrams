@@ -6,3 +6,4 @@ A python script that accepts two strings and checks of they are anagrams
 
 
 # 2. READING TEXT FROM FILES
+![image](https://user-images.githubusercontent.com/34977309/170820365-8c2b2fa2-7eb7-4970-b4e5-247780e94584.png)
