@@ -15,8 +15,8 @@ def find_anagram(word, anagram):
 
     return True
 
-print(find_anagram('hello', 'check'))
-print(find_anagram('below', 'elbow'))
+print(find_anagram('2020', 'check'))
+print(find_anagram('2020', '2200'))
 
 
  
