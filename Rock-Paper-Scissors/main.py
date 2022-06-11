@@ -1,14 +1,10 @@
 
-## A python program that computes
-## agianst the CPU
-
-
 import random
 
 while True:
 
- print('You are playing Rock, Papper, Scissors\n Enter Either R, P, S\n and wait for the CPU to Challenge you')
- player_option = input("Enter a choice (rock, paper, scissors): ")
+ print(f'\nYou are playing Rock, Papper, Scissors\n Enter Either R, P, S and wait for the CPU to Challenge you')
+ player_option = input("Enter a choice : ").lower()
 
  computer_options = ['R', 'P', 'S']
 
@@ -33,9 +29,10 @@ while True:
         print(f'\n Scissors cuts papper, player_1 wins')
     else:
         print(f'\n Rock smashes scissors, Cpu wins')
+ elif(player_option not in cpu_choice):
+     print('Your choice was not known, try again with r, s or p')
  play_agian = input(f'\nPlay again? (y/n) :' )
  if(play_agian.lower() == 'n'):
      break
 
    
-
